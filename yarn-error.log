@@ -1,0 +1,36 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  D:\Program Files\ImageMagick-7.0.11-Q16-HDRI;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Cmder;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\Program Files\Calibre2\;D:\nvm;D:\Program Files\nodejs;C:\Program Files\dotnet\;D:\Program Files (x86)\gs\gs9.52\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\gianf\.cargo\bin;C:\Users\gianf\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\gianf\AppData\Local\Programs\Python\Python39\;C:\Users\gianf\AppData\Local\Microsoft\WindowsApps;C:\Users\gianf\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GitHub CLI\;D:\bin;D:\bin\ffmpeg\bin;C:\Users\gianf\AppData\Local\Pandoc\;C:\Users\gianf\.windows-build-tools\python27\;C:\Users\gianf\AppData\Roaming\Python\Python39\Scripts;D:\bin\codeql;C:\Users\gianf\AppData\Roaming\Amazon;D:\bin\Bison and Flex;D:\Program Files (x86)\Dev-Cpp\MinGW64\bin;C:\tools\neovim\Neovim\bin;D:\nvm;D:\Program Files\nodejs;C:\Users\gianf\.dotnet\tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (D:\nvm\v14.17.0\node_modules\yarn\lib\cli.js:136216:13)
+      at Interface.emit (events.js:376:20)
+      at Interface._ttyWrite (readline.js:880:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:376:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1149:36)
+      at ReadStream.emit (events.js:376:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
