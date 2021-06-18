@@ -6,7 +6,7 @@ const root = path.dirname(require.main.filename);
 module.exports = function(pathToFile, useCWD = false) {
     if (!pathToFile) throw new Error('Invalid path');
 
-    const _path = pathToFile.replace(/(~|%userprofile%|%home%)/gi, homedir()).replace(/\\/g, '/');
+    const _path = path.resolve(pathToFile.replace(/(~|%userprofile%|%home%)/gi, homedir()));
 
     if(path.isAbsolute(_path)) return _path;
     
