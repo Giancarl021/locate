@@ -10,5 +10,5 @@ module.exports = function(pathToFile, useCWD = false) {
 
     if(path.isAbsolute(_path)) return _path;
     
-    return (useCWD ? path.resolve(process.cwd(), _path) : path.resolve(root, _path)).replace(/\\/g, '/');
+    return (useCWD ? path.resolve(process.cwd(), _path) : path.resolve(root, _path));
 };
