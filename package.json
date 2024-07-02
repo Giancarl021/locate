@@ -1,9 +1,9 @@
 {
-  "name": "@giancarl021/locate",
-  "version": "0.1.6",
-  "description": "Get a path from root of project or cwd",
-  "main": "index.js",
-  "repository": "https://github.com/Giancarl021/locate.git",
-  "author": "Giancarlo Fontela da Luz <gian.f.luz@hotmail.com>",
-  "license": "MIT"
+    "name": "@giancarl021/locate",
+    "version": "0.1.7",
+    "description": "Get a path from root of project or cwd",
+    "main": "index.js",
+    "repository": "https://github.com/Giancarl021/locate.git",
+    "author": "Giancarlo Fontela da Luz <gian.f.luz@hotmail.com>",
+    "license": "MIT"
 }
